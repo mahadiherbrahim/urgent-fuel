@@ -13,9 +13,41 @@ p{
     font-size: 18px;
 }
 .navbar .logo{
-    height: 80px;
-    width: 120px;
+    width: 180px;
 }
+.fuel-nav .navbar-nav .nav-item .nav-link{
+    color: white;
+}
+.fuel-nav .navbar-nav .nav-item .nav-link:hover{
+    color: lightgray;
+}
+.nav-sign-in,
+.nav-sign-up{
+    border: 2px solid white;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 4px 25px 4px 25px ;
+    transition: 0.8s;
+}
+.nav-sign-up:hover{
+    color: #f04326;
+    background-color: white;
+}
+.search{
+    padding-top: 5px;
+}
+.search-input{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    margin-right: 30px;
+}
+
+.search-icon{
+    color: white;
+}
+
 Header{
     background-color:#f04326;
 }
@@ -35,24 +67,54 @@ Header{
 .hero-content h1{
     font-size: 60px;
 }
+
 .hero-content h5{
     margin-top: -5px;
     margin-bottom: 30px;
 }
-.hero-content .hero-btn{
-    margin-top: 20px;
+.navbar-nav a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 30px;
+    
+}
+.navbar-nav a:hover{
+    border-bottom: 1px solid white;
+    transition: 0.5s;
+    width: 75%;
+}
+.navbar-nav .active{
+    border-bottom: 1px solid white;
+    width: 70%;
+}
+.nav-login, .nav-logout{
+    border: 2px solid white;
 }
 .hero-btn{
-    padding: 10px 20px 10px 20px;
-    border: 1px solid white;
-    border-radius: 10px;
-    font-size: 18px;
+    border: 2px solid white;
     color: white;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 8px 20px 8px 20px ;
+    margin-top: 30px;
+    transition: 0.8s;
 }
-.hero-btn-active{
-    background-color: white;
-    color: #f46929;
+.hero-btn:hover{
+    color: tomato;
+    background: white;
 }
+.btn-active{
+    color: tomato;
+    background: white;
+    margin-right: 20px;
+}
+.btn-active:hover{
+    color: white;
+    background: #f04126;
+}
+
+
 .fuel-intro{
     background: white;
     padding-left: 150px;
@@ -102,12 +164,202 @@ Header{
     text-transform: uppercase;
 }
 .about-section{
-    background-color: teal;
+    background-image: url('../images/wave.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 250px;
 }
 .about-card{
-    background-color: tomato;
+    padding-top: 50px;
+    margin-top: 50px;
+    background: transparent;
+    border: none;
 }
+
 .about-card img{
-    width: 120px;
-    height: 120px;
+    width: 70px;
+    height: 90px;
+}
+
+.about-card .card-body{
+    padding-left: 20px;
+}
+
+.about-card h2{
+    margin-top: -15px;
+    font-weight: bold;
+}
+.about-card h4{
+    font-weight: 500;
+}
+.about-section h1{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.dashboard-section img{
+    width: 100%;
+}
+.dashboard-section{
+    padding-bottom: 50px;
+}
+.dashboard-content.text-right {
+    padding-top: 75px;
+    padding-left: 30px;
+}
+.dashboard-section h2{
+    font-weight: bold;
+}
+.dashboard-section p{
+    font-weight: 400;
+    font-size: 20px;
+}
+.counter-card{
+    background:transparent;
+    border: none;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.counter-section{
+    background-image: linear-gradient(to right, #f7892b , #f04126);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.counter-card h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.faq-section img{
+    width: 80%;
+}
+.faq-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.faq-section h1{
+    font-weight: 400;
+    font-size: 44px;
+    padding-bottom: 20px;
+}
+.faq-section span{
+    font-weight: bold;
+}
+.faq-section .faq-btn{
+    background-image: linear-gradient(to right, #f7892b , #f04126);
+    border: none;
+    padding: 8px 40px 8px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+    margin-top: 30px;
+    color: white;
+}
+.faq-content .accordion-button{
+    font-size: 20px;
+    border-top: 1px solid gray;
+}
+
+.faq-content .remove-border{
+    border-top: none;
+}
+
+.faq-content .accordion-item{
+    border: none;
+}
+.faq-content .accordion-body{
+    font-size: 18px;
+}
+
+.faq-content{
+    padding-top: 100px;
+}
+Footer{
+    background:#1F1F1F;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+Footer img{
+    width: 200px;
+    padding-bottom: 20px;
+}
+Footer .footer-btn{
+    border: 1px solid gray;
+    background-image: linear-gradient(to right, #f7892b , #f04126);
+    font-size: 18px;
+    font-weight: 600;
+    color:white;
+    padding: 8px 20px 8px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+Footer .footer-btn:hover{
+    background-image: linear-gradient(to right, #b45604 , #d36554);
+    color:lightgray;
+}
+Footer .subscribe-input{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 8px 0px 8px 10px;
+    margin-left: -10px;
+}
+.social-icon{
+    margin-top: 20px;
+}
+.social-icon ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li a{
+    text-decoration: none; 
+}
+Footer i{
+    color: white;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #f7892b , #f04126);
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+Footer i:hover{
+    background-image: linear-gradient(to right, #b45604 , #d36554);
+}
+.footer-menu-link h4{
+    font-weight: 600;
+}
+.footer-menu-link ul li a{
+    color: lightgray;
+    font-size: 18px;
+}
+.footer-menu-link ul li a:hover{
+    color: white;
+}
+.footer-menu-link li{
+    margin-top: 7px;
+}
+
+.footer-copyright{
+    text-align: center;
+    padding-top: 40px;
+    color: lightgray;
+    font-size: 16px;
 }
