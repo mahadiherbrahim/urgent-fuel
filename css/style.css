@@ -6,10 +6,8 @@ body{
 }
 h1{
     font-weight: bold;
-    font-family: Montserrat;
 }
 p{
-    font-family: poppins;
     font-size: 18px;
 }
 .navbar .logo{
@@ -123,8 +121,8 @@ Header{
     align-items: center;
 }
 .fuel-intro .card img{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 150px;
 }
 .fuel-card{
     text-align: center;
@@ -362,4 +360,78 @@ Footer i:hover{
     padding-top: 40px;
     color: lightgray;
     font-size: 16px;
+}
+.testimonial-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.testimonial{
+    text-align: center;
+}
+.testimonial-section h1{
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.testimonial .testimonial-content{
+    padding: 30px 50px;    
+    background-image: linear-gradient(to right, #f7892b , #f04126);
+    border-radius: 100px 0;
+    position: relative;
+    margin: 0 10px 35px;
+    margin-top: 60px;
+}
+
+.testimonial .description{
+    font-size: 16px;
+    color: #fdfffc;
+    line-height: 25px;
+    margin: 0;
+    padding-top: 40px;
+}
+.testimonial .pic{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 6px solid #f7892b;
+    margin: 0 auto 15px;
+    overflow: hidden;
+    z-index: 1;
+    position: absolute;
+    top:0px;
+    right: 40%;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .testimonial-title{
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.testimonial .post{
+    color: white;
+    font-size: 14px;
+    padding-top: -5px;
+}
+
+.prev-slide .prev-icon i{
+    color: #f04126;
+    font-size: 60px;
+    position: absolute;
+    right: 110%;
+    bottom: 40%;
+}
+.next-slide .next-icon i{
+    color: #f04126;
+    font-size: 60px;
+    position: absolute;
+    left: 110%;
+    bottom: 40%;
 }
