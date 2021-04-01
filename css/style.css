@@ -32,7 +32,14 @@ button:focus{
 }
 .fuel-nav .navbar-nav .nav-item .nav-link:hover{
     color: lightgray;
+    border-bottom: 1px solid white;
 }
+.fuel-nav .navbar-nav .nav-item .active{
+    color: lightgray;
+    border-bottom: 1px solid white;
+}
+
+
 .nav-sign-in,
 .nav-sign-up{
     border: 2px solid white;
@@ -55,7 +62,10 @@ button:focus{
     background: transparent;
     margin-right: 30px;
 }
-
+.search input:focus{
+    color: white;
+    border: 0px;
+}
 .search-icon{
     color: white;
 }
@@ -90,15 +100,6 @@ Header{
     font-weight: 500;
     margin-right: 30px;
     
-}
-.navbar-nav a:hover{
-    border-bottom: 1px solid white;
-    transition: 0.5s;
-    width: 75%;
-}
-.navbar-nav .active{
-    border-bottom: 1px solid white;
-    width: 70%;
 }
 .nav-login, .nav-logout{
     border: 2px solid white;
@@ -466,8 +467,6 @@ Footer i:hover{
     width: 150px;
 }
 
-
-
 /* Responsive Design */
 @media (max-width: 480px){
     .hero-content{
@@ -517,14 +516,14 @@ Footer i:hover{
     .registration{
         margin-top: 20px;
     }
-    .navbar-nav a:hover{
-        width: 10%;
+    #navbarNav{
+        text-align: right;
     }
-    .navbar-nav .active{
-        width: 10%;
+    .fuel-nav .navbar-nav .nav-item .nav-link:hover{
+        border-bottom: 0px;
     }
-    .navbar{
-        text-align: center;
+    .fuel-nav .navbar-nav .nav-item .active{
+        border-bottom: 0px;
     }
 }
 @media(min-width: 481px) and (max-width: 768px){
@@ -575,14 +574,15 @@ Footer i:hover{
     .registration{
         margin-top: 20px;
     }
-    .navbar-nav a:hover{
-        width: 10%;
+
+    #navbarNav{
+        text-align: right;
     }
-    .navbar-nav .active{
-        width: 10%;
+    .fuel-nav .navbar-nav .nav-item .nav-link:hover{
+        border-bottom: 0px;
     }
-    .navbar{
-        text-align: center;
+    .fuel-nav .navbar-nav .nav-item .active{
+        border-bottom: 0px;
     }
 }
 @media(min-width: 768px) and (max-width: 993px){
