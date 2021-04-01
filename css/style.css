@@ -112,7 +112,6 @@ Header{
     background: #f04126;
 }
 
-
 .fuel-intro{
     background: white;
     padding-left: 150px;
@@ -346,12 +345,13 @@ Footer i{
 Footer i:hover{
     background-image: linear-gradient(to right, #b45604 , #d36554);
 }
-.footer-menu-link h4{
+.footer-menu-link h5{
     font-weight: 600;
+    padding-top: 10px;
 }
 .footer-menu-link ul li a{
     color: lightgray;
-    font-size: 18px;
+    font-size: 16px;
 }
 .footer-menu-link ul li a:hover{
     color: white;
@@ -367,7 +367,7 @@ Footer i:hover{
     font-size: 16px;
 }
 .testimonial-section{
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 .testimonial{
@@ -386,6 +386,7 @@ Footer i:hover{
     position: relative;
     margin: 0 10px 35px;
     margin-top: 60px;
+    height: auto;
 }
 
 .testimonial .description{
@@ -423,7 +424,6 @@ Footer i:hover{
 .testimonial .post{
     color: white;
     font-size: 14px;
-    padding-top: -5px;
 }
 
 .prev-slide .prev-icon i{
@@ -439,4 +439,86 @@ Footer i:hover{
     position: absolute;
     left: 110%;
     bottom: 40%;
+}
+.logos-section{
+    background-color: lightgray;
+}
+.customer-logos{
+    display: flex;
+    padding: 30px 10px 30px 10px;
+
+}
+.customer-logos  img{
+    width: 150px;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 480px){
+	.hero-content h1{
+        font-size: 50px;
+    }
+    .fuel-intro{
+        padding-left: 55px;
+    }
+    .fuel-intro .delivery{
+        padding-top: 60px;
+    }
+    .about-card .card-body{
+        text-align: center;
+    }
+    .about-card{
+        padding-top: 30px;
+        margin-top: 20px;
+    }
+    .prev-slide,
+    .next-slide{
+        display: none;
+    }
+    .faq-content{
+        text-align: center;
+    }
+    .faq-section img{
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+}
+@media(min-width: 481px) and (max-width: 768px){
+	.hero-content h1{
+        font-size: 50px;
+    }
+    .fuel-intro{
+        padding-left: 65px;
+    }
+    .fuel-intro .delivery{
+        padding-top: 60px;
+    }
+    .customer-logos{
+        overflow: hidden;
+    }
+    .about-card .card-body{
+        text-align: center;
+    }
+    .about-card{
+        padding-top: 30px;
+        margin-top: 20px;
+    }
+    .prev-slide,
+    .next-slide{
+        display: none;
+    }
+    .faq-content{
+        text-align: center;
+    }
+    .faq-section img{
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+}
+@media(min-width: 768px) and (max-width: 993px){
+	
+}
+@media(min-width: 994px) and (max-width: 1200px){
+	
 }
