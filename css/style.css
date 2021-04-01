@@ -2,10 +2,10 @@
 body{
     margin:0;
     padding: 0;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 h1{
-    font-weight: bold;
+    font-weight: 900;
 }
 p{
     font-size: 18px;
@@ -88,6 +88,7 @@ Header{
 }
 .hero-content h1{
     font-size: 60px;
+    font-weight: 900;
 }
 
 .hero-content h5{
@@ -96,7 +97,7 @@ Header{
 }
 .navbar-nav a{
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     margin-right: 30px;
     
@@ -142,6 +143,7 @@ Header{
 .fuel-intro .delivery{
     padding-top: 260px;
 }
+
 .fuel-card{
     text-align: center;
     border: none;
@@ -227,8 +229,8 @@ Header{
     padding-top: 75px;
     padding-left: 30px;
 }
-.dashboard-section h2{
-    font-weight: bold;
+.dashboard-section h1{
+    text-transform: uppercase;
 }
 .dashboard-section p{
     font-weight: 400;
@@ -248,7 +250,7 @@ Header{
     background-size: cover;
 }
 .counter-card h1{
-    font-size: 55px;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -261,7 +263,7 @@ Header{
 }
 .faq-section h1{
     font-weight: 400;
-    font-size: 44px;
+    font-size: 48px;
     padding-bottom: 20px;
 }
 .faq-section span{
@@ -278,7 +280,7 @@ Header{
     color: white;
 }
 .faq-content .accordion-button{
-    font-size: 20px;
+    font-size: 18px;
     border-top: 1px solid gray;
 }
 
@@ -438,7 +440,7 @@ Footer i:hover{
 }
 .testimonial .post{
     color: white;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .prev-slide .prev-icon i{
