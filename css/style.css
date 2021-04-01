@@ -10,9 +10,23 @@ h1{
 p{
     font-size: 18px;
 }
+button:focus{
+    border: none;
+}
 .navbar .logo{
     width: 180px;
 }
+.fuel-nav .navbar-toggler{
+    border: none;
+}
+.fuel-nav .navbar-toggler i{
+    font-size: 28px;
+    color: white;
+}
+.fuel-nav .navbar-toggler:focus{
+    box-shadow: none;
+}
+
 .fuel-nav .navbar-nav .nav-item .nav-link{
     color: white;
 }
@@ -190,7 +204,7 @@ Header{
 }
 
 .about-card h2{
-    margin-top: -15px;
+    margin-top: -5px;
     font-weight: bold;
 }
 .about-card h4{
@@ -456,6 +470,10 @@ Footer i:hover{
 
 /* Responsive Design */
 @media (max-width: 480px){
+    .hero-content{
+        margin-top: 50px;
+    }
+    
 	.hero-content h1{
         font-size: 50px;
     }
@@ -487,9 +505,18 @@ Footer i:hover{
         padding-top: 40px;
         padding-bottom: 40px;
     }
+    .fuel-contact{
+        padding-top: 20px;
+    }
+    .dashboard-section{
+        margin-top: -60px;
+    }
 }
 @media(min-width: 481px) and (max-width: 768px){
-	.hero-content h1{
+	.hero-content{
+        padding-top: 30px;
+    }
+    .hero-content h1{
         font-size: 50px;
     }
     .fuel-intro{
@@ -526,6 +553,21 @@ Footer i:hover{
     }
     .fuel-contact{
         padding-top: 20px;
+    }
+    .dashboard-section{
+        margin-top: -60px;
+    }
+    .registration{
+        margin-top: 20px;
+    }
+    .navbar-nav a:hover{
+        width: 10%;
+    }
+    .navbar-nav .active{
+        width: 10%;
+    }
+    .navbar{
+        text-align: center;
     }
 }
 @media(min-width: 768px) and (max-width: 993px){
