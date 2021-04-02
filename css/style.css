@@ -26,7 +26,8 @@ button:focus{
 ========================== 
 */
 Header{
-    background-color:#f04326;
+    background-image: linear-gradient(to right, #f04126, #f7892b,  #f04126 );
+    /* background-color:#f04326; */
 }
 
 .navbar .logo{
