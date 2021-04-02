@@ -1,4 +1,8 @@
-/* global Style */
+/* 
+==========================
+    Global Style
+========================== 
+*/
 body{
     margin:0;
     padding: 0;
@@ -13,16 +17,31 @@ p{
 button:focus{
     border: none;
 }
+
+
+
+/* 
+==========================
+    Navbar  Style
+========================== 
+*/
+Header{
+    background-color:#f04326;
+}
+
 .navbar .logo{
     width: 180px;
 }
+
 .fuel-nav .navbar-toggler{
     border: none;
 }
+
 .fuel-nav .navbar-toggler i{
     font-size: 28px;
     color: white;
 }
+
 .fuel-nav .navbar-toggler:focus{
     box-shadow: none;
 }
@@ -30,15 +49,16 @@ button:focus{
 .fuel-nav .navbar-nav .nav-item .nav-link{
     color: white;
 }
+
 .fuel-nav .navbar-nav .nav-item .nav-link:hover{
     color: lightgray;
     border-bottom: 1px solid white;
 }
+
 .fuel-nav .navbar-nav .nav-item .active{
     color: lightgray;
     border-bottom: 1px solid white;
 }
-
 
 .nav-sign-in,
 .nav-sign-up{
@@ -49,13 +69,29 @@ button:focus{
     padding: 4px 25px 4px 25px ;
     transition: 0.8s;
 }
+
 .nav-sign-up:hover{
     color: #f04326;
     background-color: white;
 }
+
+
+.navbar-nav a{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 30px;
+    
+}
+.nav-login, .nav-logout{
+    border: 2px solid white;
+}
+
+ /* Navbar Search Style */
 .search{
     padding-top: 5px;
 }
+
 .search-input{
     border: none;
     border-bottom: 1px solid white;
@@ -70,9 +106,14 @@ button:focus{
     color: white;
 }
 
-Header{
-    background-color:#f04326;
-}
+/* End Navbar Search  Style */
+
+/* 
+==========================
+    Hero Section   Style
+========================== 
+*/
+
 .hero-section{
     margin-top: 50px;
 }
@@ -95,16 +136,7 @@ Header{
     margin-top: -5px;
     margin-bottom: 30px;
 }
-.navbar-nav a{
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    margin-right: 30px;
-    
-}
-.nav-login, .nav-logout{
-    border: 2px solid white;
-}
+
 .hero-btn{
     border: 2px solid white;
     color: white;
@@ -118,16 +150,33 @@ Header{
     color: tomato;
     background: white;
 }
-.btn-active{
-    color: tomato;
-    background: white;
-    margin-right: 20px;
+
+/* End Hero Section Style */
+
+/* 
+==========================
+    Logos Section   Style
+========================== 
+*/
+.logos-section{
+    background-color: lightgray;
 }
-.btn-active:hover{
-    color: white;
-    background: #f04126;
+.customer-logos{
+    display: flex;
+    padding: 30px 10px 30px 10px;
+
+}
+.customer-logos  img{
+    width: 150px;
 }
 
+/* End Logo Section Style */
+
+/* 
+==========================
+    Fuel Intro Section   Style
+========================== 
+*/
 .fuel-intro{
     background: white;
     /* padding-left: 150px; */
@@ -155,6 +204,25 @@ Header{
     color: #F97A1E;
     text-transform: uppercase;
 }
+ /* hero section button and login signup button active style */
+.btn-active{
+    background: white;
+    color: red;
+    margin-right: 20px;
+}
+
+.btn-active:hover{
+    color: white;
+    background: #f04126;
+}
+
+/* End Fuel Intro Section Style */
+
+/* 
+==========================
+    Service  Section   Style
+========================== 
+*/
 .service-section{
     background-color: #1F1F1F;
     padding-top: 50px;
@@ -183,6 +251,15 @@ Header{
     font-weight: bold;
     text-transform: uppercase;
 }
+
+/* End Service Section Style */
+
+/* 
+==========================
+    About  Section   Style
+========================== 
+*/
+
 .about-section{
     background-image: url('../images/wave1.png');
     background-repeat: no-repeat;
@@ -205,7 +282,6 @@ Header{
 }
 
 .about-card .card-body{
-    /* padding-left: 20px; */
     margin-left: 5px;
 }
 
@@ -222,6 +298,16 @@ Header{
     text-transform: uppercase;
     padding-top: 30px;
 }
+
+/* End About  Section Style */
+
+/* 
+
+==========================
+    Dashboard  Section   Style
+========================== 
+*/
+
 .dashboard-section img{
     width: 100%;
 }
@@ -239,6 +325,13 @@ Header{
     font-weight: 400;
     font-size: 20px;
 }
+/* End dashboard Section Style */
+
+/* 
+==========================
+    Counter  Section   Style
+========================== 
+*/
 .counter-card{
     background:transparent;
     border: none;
@@ -256,7 +349,99 @@ Header{
     font-size: 50px;
     font-weight: bold;
 }
+/* counter  Section Style */
 
+
+
+/* 
+==========================
+    Testimonial  Section   Style
+========================== 
+*/
+
+.testimonial-section{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.testimonial{
+    text-align: center;
+}
+.testimonial-section h1{
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.testimonial .testimonial-content{
+    padding: 30px 50px;    
+    background-image: linear-gradient(to right, #f7892b , #f04126);
+    border-radius: 100px 0;
+    position: relative;
+    margin: 0 10px 35px;
+    margin-top: 60px;
+    height: auto;
+}
+
+.testimonial .description{
+    font-size: 16px;
+    color: #fdfffc;
+    line-height: 25px;
+    margin: 0;
+    padding-top: 40px;
+}
+.testimonial .pic{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 6px solid #f7892b;
+    margin: 0 auto 15px;
+    overflow: hidden;
+    z-index: 1;
+    position: absolute;
+    top:0px;
+    right: 40%;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .testimonial-title{
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.testimonial .post{
+    color: white;
+    font-size: 16px;
+}
+
+.prev-slide .prev-icon i{
+    color: #f04126;
+    font-size: 60px;
+    position: absolute;
+    right: 110%;
+    bottom: 40%;
+}
+.next-slide .next-icon i{
+    color: #f04126;
+    font-size: 60px;
+    position: absolute;
+    left: 110%;
+    bottom: 40%;
+}
+
+
+/* Testimonial  Section Style */
+
+/* 
+==========================
+    FAQ  Section   Style
+========================== 
+*/
 .faq-section img{
     width: 80%;
 }
@@ -301,6 +486,13 @@ Header{
 .faq-content{
     padding-top: 100px;
 }
+/* End faq Section Style */
+
+/* 
+==========================
+    Footer  Section   Style
+========================== 
+*/
 Footer{
     background:#1F1F1F;
     color: white;
@@ -386,94 +578,32 @@ Footer i:hover{
     color: lightgray;
     font-size: 16px;
 }
-.testimonial-section{
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-.testimonial{
-    text-align: center;
-}
-.testimonial-section h1{
-    font-weight: 900;
-    text-align: center;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-}
-.testimonial .testimonial-content{
-    padding: 30px 50px;    
-    background-image: linear-gradient(to right, #f7892b , #f04126);
-    border-radius: 100px 0;
-    position: relative;
-    margin: 0 10px 35px;
-    margin-top: 60px;
-    height: auto;
-}
 
-.testimonial .description{
-    font-size: 16px;
-    color: #fdfffc;
-    line-height: 25px;
-    margin: 0;
-    padding-top: 40px;
-}
-.testimonial .pic{
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    border: 6px solid #f7892b;
-    margin: 0 auto 15px;
-    overflow: hidden;
-    z-index: 1;
-    position: absolute;
-    top:0px;
-    right: 40%;
-}
-.testimonial .pic img{
-    width: 100%;
-    height: auto;
-}
-.testimonial .testimonial-title{
-    display: block;
-    font-size: 17px;
-    font-weight: bold;
-    color: white;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    padding-top: 10px;
-}
-.testimonial .post{
-    color: white;
-    font-size: 16px;
-}
+/* End Footer  Style */
 
-.prev-slide .prev-icon i{
-    color: #f04126;
-    font-size: 60px;
-    position: absolute;
-    right: 110%;
-    bottom: 40%;
-}
-.next-slide .next-icon i{
-    color: #f04126;
-    font-size: 60px;
-    position: absolute;
-    left: 110%;
-    bottom: 40%;
-}
-.logos-section{
-    background-color: lightgray;
-}
-.customer-logos{
-    display: flex;
-    padding: 30px 10px 30px 10px;
 
-}
-.customer-logos  img{
-    width: 150px;
-}
 
-/* Responsive Design */
+/* 
+==========================
+    Style Responsive Design 
+========================== 
+*/
+
+/* Small OR Mobile Device Responsive  */
+
 @media (max-width: 480px){
+    #navbarNav{
+        text-align: right;
+    }
+    .fuel-nav .navbar-nav .nav-item .nav-link:hover{
+        border-bottom: 0px;
+    }
+    .fuel-nav .navbar-nav .nav-item .active{
+        border-bottom: 0px;
+    }
+    .registration{
+        margin-top: 20px;
+    }
     .hero-content{
         padding-top: 30px;
     }
@@ -508,6 +638,10 @@ Footer i:hover{
         padding-top: 70px;
         padding-bottom: 50px;
     }
+    .dashboard-section{
+        margin-top: -60px;
+    }
+    
     .footer-menu-link{
         margin-top: 10px;
         padding-bottom: 10px;
@@ -516,12 +650,12 @@ Footer i:hover{
     .fuel-contact{
         padding-top: 20px;
     }
-    .dashboard-section{
-        margin-top: -60px;
-    }
-    .registration{
-        margin-top: 20px;
-    }
+}
+
+
+/* Medium Size  Mobile Device Responsive  */
+
+@media(min-width: 481px) and (max-width: 768px){
     #navbarNav{
         text-align: right;
     }
@@ -531,8 +665,9 @@ Footer i:hover{
     .fuel-nav .navbar-nav .nav-item .active{
         border-bottom: 0px;
     }
-}
-@media(min-width: 481px) and (max-width: 768px){
+    .registration{
+        margin-top: 20px;
+    }
 	.hero-content{
         padding-top: 30px;
     }
@@ -578,10 +713,14 @@ Footer i:hover{
     .dashboard-section{
         margin-top: -60px;
     }
-    .registration{
-        margin-top: 20px;
-    }
+}
 
+/* Tablet  Device Responsive  */
+
+@media(min-width: 768px) and (max-width: 993px){
+    h1{
+        font-size: 40px;
+    }
     #navbarNav{
         text-align: right;
     }
@@ -591,15 +730,6 @@ Footer i:hover{
     .fuel-nav .navbar-nav .nav-item .active{
         border-bottom: 0px;
     }
-}
-@media(min-width: 768px) and (max-width: 993px){
-    h1{
-        font-size: 40px;
-    }
-    h1{
-        font-size: 30px;
-    }
-    
     .hero-content{
         padding-top: 30px;
     }
@@ -649,20 +779,13 @@ Footer i:hover{
     .dashboard-section img{
         margin-top: 100px;
     }
-    #navbarNav{
-        text-align: right;
-    }
-    .fuel-nav .navbar-nav .nav-item .nav-link:hover{
-        border-bottom: 0px;
-    }
-    .fuel-nav .navbar-nav .nav-item .active{
-        border-bottom: 0px;
-    }
     .social-icon{
         padding-bottom: 20px;
     }
-
 }
+
+/* Large Device Device Responsive  */
+
 @media(min-width: 994px) and (max-width: 1200px){
 	
 }
