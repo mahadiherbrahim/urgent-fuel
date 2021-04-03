@@ -770,6 +770,9 @@ Footer i{
     .fuel-vision h1{
         font-size: 40px;
     }
+    .portfolio-res-order{
+        order: -1;
+    }
 }
 
 
@@ -853,6 +856,9 @@ Footer i{
     .fuel-history h1,
     .fuel-vision h1{
         font-size: 40px;
+    }
+    .portfolio-res-order{
+        order: -1;
     }
 }
 
