@@ -544,18 +544,19 @@ ul{
 ul li a{
     text-decoration: none; 
 }
+.social-icon i,
 Footer i{
     color: white;
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background-image: linear-gradient(to right, #f7892b , #f04126);
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 8px;
+    padding-top: 8px;
     margin-right: 10px;
 }
-Footer i:hover{
+.social-icon i:hover{
     background-image: linear-gradient(to right, #b45604 , #d36554);
 }
 .footer-menu-link h5{
@@ -582,7 +583,105 @@ Footer i:hover{
 
 /* End Footer  Style */
 
+/* 
+==========================
+    About Us Page Style
+========================== 
+*/
+.about-header{
+    background-image: url('../images/wave.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.about-title h1 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+    padding-top: 100px;
+    text-transform: uppercase;
+    color: white;
+    
+}
 
+.about-intro img{
+    width: 50%;
+    text-align: right;
+}
+.about-fuel-content{
+    padding-top: 120px;
+}
+.about-intro{
+    padding-bottom: 80px;
+}
+.portfolio img{
+    width: 100%;
+    height: 400px;
+}
+.portfolio-content h1{
+    font-weight: 900;
+}
+.portfolio-content{
+    background-color: #1F1F1F;
+    color: white;
+    height: 400px;
+    text-align: right;
+    padding-right: 40px;
+    padding-left: 80px;
+    padding-top: 150px;
+}
+.fuel-history,
+.fuel-vision{
+    background-image: linear-gradient(to right, #f7892b , #f04126);
+    text-align: center;
+    padding: 80px 150px 80px 150px;
+    color: white;
+}
+.fuel-history h1,
+.fuel-vision h1{
+    font-weight: 900;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.fuel-vision{
+    background-image: linear-gradient(to right, #1f1f1f , #1f1f1f);
+}
+.fuel-team{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.team-card{
+    margin-top: 40px;
+}
+.fuel-team h1{
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.fuel-team img{
+    border-radius: 15px;
+}
+.fuel-team .team-card{
+    border: none;
+}
+.fuel-team .team-card .card-body{
+    margin: 0;
+    padding: 0;
+}
+.fuel-team .team-card .card-body h5{
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.fuel-team .team-card .card-body h6{
+    font-size: 16px;
+    margin-top: -8px;;
+}
+.no-gutters{
+    padding: 0;
+}
 
 /* 
 ==========================
@@ -651,6 +750,25 @@ Footer i:hover{
     .fuel-contact{
         padding-top: 20px;
     }
+    /* about us page responsive  */
+    .about-title h1{
+        font-size: 50px;
+    }
+    .about-fuel-content{
+        padding-top: 10px;
+        text-align: center;
+    }
+    .about-fuel-content img{
+        margin-top: 70px;
+    }
+    .fuel-history,
+    .fuel-vision{
+        padding: 60px 10px 60px 10px;
+    }
+    .fuel-history h1,
+    .fuel-vision h1{
+        font-size: 40px;
+    }
 }
 
 
@@ -713,6 +831,27 @@ Footer i:hover{
     }
     .dashboard-section{
         margin-top: -60px;
+    }
+
+    /* about us page responsive  */
+    .about-title h1{
+        font-size: 50px;
+        padding-top: 50px;
+    }
+    .about-fuel-content{
+        padding-top: 10px;
+        text-align: center;
+    }
+    .about-fuel-content img{
+        margin-top: 70px;
+    }
+    .fuel-history,
+    .fuel-vision{
+        padding: 60px 10px 60px 10px;
+    }
+    .fuel-history h1,
+    .fuel-vision h1{
+        font-size: 40px;
     }
 }
 
@@ -783,6 +922,25 @@ Footer i:hover{
     .social-icon{
         padding-bottom: 20px;
     }
+    /* about us page responsive  */
+    .about-title h1{
+        font-size: 60px;
+    }
+    .about-fuel-content{
+        padding-top: 10px;
+        text-align: center;
+    }
+    .about-fuel-content img{
+        margin-top: 70px;
+    }
+    .fuel-history,
+    .fuel-vision{
+        padding: 60px 10px 60px 10px;
+    }
+    .fuel-history h1,
+    .fuel-vision h1{
+        font-size: 40px;
+    }
 }
 
 /* Large Device Device Responsive  */
@@ -790,3 +948,4 @@ Footer i:hover{
 @media(min-width: 994px) and (max-width: 1200px){
 	
 }
+
