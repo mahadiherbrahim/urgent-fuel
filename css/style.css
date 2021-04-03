@@ -528,7 +528,7 @@ Footer .subscribe-input{
     padding: 8px 0px 8px 10px;
     margin-left: -10px;
 }
-.social-icon{
+Footer .social-icon{
     margin-top: 20px;
 }
 .social-icon ul{
@@ -556,6 +556,7 @@ Footer i{
     padding-top: 8px;
     margin-right: 10px;
 }
+
 .social-icon i:hover{
     background-image: linear-gradient(to right, #b45604 , #d36554);
 }
