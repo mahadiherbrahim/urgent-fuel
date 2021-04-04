@@ -728,9 +728,23 @@ Footer i{
         padding-top: 30px;
         margin-top: 20px;
     }
-    .prev-slide,
-    .next-slide{
-        display: none;
+    .prev-slide .prev-icon i{
+        font-size: 20px;
+        color: #f04126;
+        background-color: white;
+        padding: 10px;
+        position: absolute;
+        right: 40%;
+        bottom: 50%;
+    }
+    .next-slide .next-icon i{
+        color: #f04126;
+        font-size: 20px;
+        background-color: white;
+        padding: 10px;
+        position: absolute;
+        left: 40%;
+        bottom: 50%;
     }
     .faq-content{
         text-align: center;
@@ -814,9 +828,23 @@ Footer i{
         padding-top: 30px;
         margin-top: 20px;
     }
-    .prev-slide,
-    .next-slide{
-        display: none;
+    .prev-slide .prev-icon i{
+        font-size: 20px;
+        color: #f04126;
+        background-color: white;
+        padding: 10px;
+        position: absolute;
+        right: 40%;
+        bottom: 50%;
+    }
+    .next-slide .next-icon i{
+        color: #f04126;
+        font-size: 20px;
+        background-color: white;
+        padding: 10px;
+        position: absolute;
+        left: 40%;
+        bottom: 50%;
     }
     .faq-content{
         text-align: center;
@@ -956,3 +984,30 @@ Footer i{
 	
 }
 
+.logo-slider{
+    background-color: #878787;
+}
+    .section-padding{
+    padding:60px 0;
+    }
+    .brand-carousel {
+    background: aliceblue;
+    margin-top: 15%;
+    }
+    .owl-dots {
+    text-align: center;
+    margin-top: 4%;
+    }
+    .owl-dot {
+    display: inline-block;
+    height: 15px !important;
+    width: 15px !important;
+    background-color: #878787 !important;
+    opacity: 0.8;
+    border-radius: 50%;
+    margin: 0 5px;
+    }
+    .owl-dot.active {
+    background-color: #000 !important;
+    }
+    
