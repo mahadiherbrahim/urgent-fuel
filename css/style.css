@@ -728,6 +728,9 @@ Footer i{
         padding-top: 30px;
         margin-top: 20px;
     }
+    .about-card img {
+        height: 100px;
+    }
     .prev-slide .prev-icon i{
         font-size: 20px;
         color: #f04126;
@@ -827,6 +830,9 @@ Footer i{
     .about-card{
         padding-top: 30px;
         margin-top: 20px;
+    }
+    .about-card img {
+        height: 100px;
     }
     .prev-slide .prev-icon i{
         font-size: 20px;
