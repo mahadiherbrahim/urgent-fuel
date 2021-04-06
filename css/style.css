@@ -1,3 +1,4 @@
+
 /* 
 ==========================
     Global Style
@@ -285,6 +286,12 @@ Header{
 .about-card .card-body{
     margin-left: 5px;
 }
+.social-icon img,
+.fuel-contact img{
+    width: 30px;
+    height: 65px;
+    margin-right: 8px;
+}
 
 .about-card h2{
     margin-top: -5px;
@@ -299,6 +306,7 @@ Header{
     text-transform: uppercase;
     padding-top: 30px;
 }
+
 
 /* End About  Section Style */
 
@@ -544,22 +552,10 @@ ul{
 ul li a{
     text-decoration: none; 
 }
-.social-icon i,
-Footer i{
-    color: white;
-    font-size: 15px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-image: linear-gradient(to right, #f7892b , #f04126);
-    padding-left: 8px;
-    padding-top: 8px;
-    margin-right: 10px;
+.team-card .social-icon {
+    margin-top: -20px;
 }
 
-.social-icon i:hover{
-    background-image: linear-gradient(to right, #b45604 , #d36554);
-}
 .footer-menu-link h5{
     font-weight: 600;
     padding-top: 10px;
@@ -765,9 +761,7 @@ Footer i{
         padding-bottom: 10px;
         padding-left:8px;
     }
-    .fuel-contact{
-        padding-top: 20px;
-    }
+    
 
     /* about us page responsive  */
 
