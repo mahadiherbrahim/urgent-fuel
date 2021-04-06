@@ -89,24 +89,6 @@ Header{
     border: 2px solid white;
 }
 
- /* Navbar Search Style */
-.search{
-    padding-top: 5px;
-}
-
-.search-input{
-    border: none;
-    border-bottom: 1px solid white;
-    background: transparent;
-    margin-right: 30px;
-}
-.search input:focus{
-    color: white;
-    border: 0px;
-}
-.search-icon{
-    color: white;
-}
 
 /* End Navbar Search  Style */
 
