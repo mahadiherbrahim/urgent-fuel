@@ -306,7 +306,12 @@ Header{
     text-transform: uppercase;
     padding-top: 30px;
 }
-
+.fuel-contact img{
+    margin-top: 20px;
+}
+.fuel-contact li {
+    margin-top: -20px;
+}
 
 /* End About  Section Style */
 
