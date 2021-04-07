@@ -24,7 +24,7 @@ button:focus{
 /* Header style */
 Header{
     background-image: linear-gradient(to right, #f04126, #f7892b,  #f04126 );
-    /* background-color:#f04326; */
+   
 }
 
 
@@ -533,18 +533,7 @@ Header{
 /* Small OR Mobile Device Responsive  */
 
 @media (max-width: 480px){
-    /* #navbarNav{
-        text-align: right;
-    }
-    .fuel-nav .navbar-nav .nav-item .nav-link:hover{
-        border-bottom: 0px;
-    }
-    .fuel-nav .navbar-nav .nav-item .active{
-        border-bottom: 0px;
-    }
-    .registration{
-        margin-top: 20px;
-    } */
+    
     .hero-content{
         padding-top: 30px;
     }
@@ -600,11 +589,7 @@ Header{
         margin-top: -60px;
     }
     
-    /* .footer-menu-link{
-        margin-top: 10px;
-        padding-bottom: 10px;
-        padding-left:8px;
-    } */
+    
     
 
     /* about us page responsive  */
@@ -636,18 +621,7 @@ Header{
 /* Medium Size  Mobile Device Responsive  */
 
 @media(min-width: 481px) and (max-width: 768px){
-    /* #navbarNav{
-        text-align: right;
-    }
-    .fuel-nav .navbar-nav .nav-item .nav-link:hover{
-        border-bottom: 0px;
-    }
-    .fuel-nav .navbar-nav .nav-item .active{
-        border-bottom: 0px;
-    }
-    .registration{
-        margin-top: 20px;
-    } */
+    
 	.hero-content{
         padding-top: 30px;
     }
@@ -699,11 +673,7 @@ Header{
         padding-top: 70px;
         padding-bottom: 50px;
     }
-    /* .footer-menu-link{
-        margin-top: 10px;
-        padding-bottom: 10px;
-        padding-left:8px;
-    } */
+   
     .fuel-contact{
         padding-top: 20px;
     }
@@ -739,18 +709,10 @@ Header{
 /* Tablet  Device Responsive  */
 
 @media(min-width: 768px) and (max-width: 993px){
-    /* h1{
+    h1{
         font-size: 40px;
     }
-    #navbarNav{
-        text-align: right;
-    }
-    .fuel-nav .navbar-nav .nav-item .nav-link:hover{
-        border-bottom: 0px;
-    }
-    .fuel-nav .navbar-nav .nav-item .active{
-        border-bottom: 0px;
-    } */
+    
     .hero-content{
         padding-top: 30px;
     }
@@ -782,11 +744,7 @@ Header{
     .faq-section h1{
         font-size: 40px;
     }
-    /* .footer-menu-link{
-        margin-top: 10px;
-        padding-bottom: 10px;
-        padding-left:8px;
-    } */
+    
     .fuel-contact{
         padding-top: 20px;
     }
