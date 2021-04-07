@@ -21,76 +21,13 @@ button:focus{
 
 
 
-/* 
-==========================
-    Navbar  Style
-========================== 
-*/
+/* Header style */
 Header{
     background-image: linear-gradient(to right, #f04126, #f7892b,  #f04126 );
     /* background-color:#f04326; */
 }
 
-.navbar .logo{
-    width: 180px;
-}
 
-.fuel-nav .navbar-toggler{
-    border: none;
-}
-
-.fuel-nav .navbar-toggler i{
-    font-size: 28px;
-    color: white;
-}
-
-.fuel-nav .navbar-toggler:focus{
-    box-shadow: none;
-}
-
-.fuel-nav .navbar-nav .nav-item .nav-link{
-    color: white;
-}
-
-.fuel-nav .navbar-nav .nav-item .nav-link:hover{
-    color: lightgray;
-    border-bottom: 1px solid white;
-}
-
-.fuel-nav .navbar-nav .nav-item .active{
-    color: lightgray;
-    border-bottom: 1px solid white;
-}
-
-.nav-sign-in,
-.nav-sign-up{
-    border: 2px solid white;
-    color: white;
-    font-weight: 500;
-    font-size: 16px;
-    padding: 4px 25px 4px 25px ;
-    transition: 0.8s;
-}
-
-.nav-sign-up:hover{
-    color: #f04326;
-    background-color: white;
-}
-
-
-.navbar-nav a{
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    margin-right: 30px;
-    
-}
-.nav-login, .nav-logout{
-    border: 2px solid white;
-}
-
-
-/* End Navbar Search  Style */
 
 /* 
 ==========================
@@ -485,88 +422,7 @@ Header{
 }
 /* End faq Section Style */
 
-/* 
-==========================
-    Footer  Section   Style
-========================== 
-*/
-Footer{
-    background:#1F1F1F;
-    color: white;
-    padding-top: 60px;
-    padding-bottom: 20px;
-}
-Footer img{
-    width: 200px;
-    padding-bottom: 20px;
-}
-Footer .footer-btn{
-    border: 1px solid gray;
-    background-image: linear-gradient(to right, #f7892b , #f04126);
-    font-size: 18px;
-    font-weight: 600;
-    color:white;
-    padding: 8px 20px 8px 20px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
-Footer .footer-btn:hover{
-    background-image: linear-gradient(to right, #b45604 , #d36554);
-    color:lightgray;
-}
-Footer .subscribe-input{
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    padding: 8px 0px 8px 10px;
-    margin-left: -10px;
-}
-Footer .social-icon{
-    margin-top: 20px;
-}
-.social-icon ul{
-    display: flex;
-}
-ul li{
-    list-style: none;
-}
-ul{
-    margin: 0;
-    padding: 0;
-}
-ul li a{
-    text-decoration: none; 
-}
-.team-card .social-icon {
-    margin-top: -20px;
-}
 
-.footer-menu-link h5{
-    font-weight: 600;
-    padding-top: 10px;
-}
-.footer-menu-link ul li a{
-    color: lightgray;
-    font-size: 16px;
-}
-.footer-menu-link ul li a:hover{
-    color: white;
-}
-.footer-menu-link li{
-    margin-top: 7px;
-}
-
-.footer-copyright{
-    text-align: center;
-    padding-top: 40px;
-    color: lightgray;
-    font-size: 16px;
-}
-
-/* End Footer  Style */
 
 /* 
 ==========================
@@ -677,7 +533,7 @@ ul li a{
 /* Small OR Mobile Device Responsive  */
 
 @media (max-width: 480px){
-    #navbarNav{
+    /* #navbarNav{
         text-align: right;
     }
     .fuel-nav .navbar-nav .nav-item .nav-link:hover{
@@ -688,7 +544,7 @@ ul li a{
     }
     .registration{
         margin-top: 20px;
-    }
+    } */
     .hero-content{
         padding-top: 30px;
     }
@@ -744,11 +600,11 @@ ul li a{
         margin-top: -60px;
     }
     
-    .footer-menu-link{
+    /* .footer-menu-link{
         margin-top: 10px;
         padding-bottom: 10px;
         padding-left:8px;
-    }
+    } */
     
 
     /* about us page responsive  */
@@ -780,7 +636,7 @@ ul li a{
 /* Medium Size  Mobile Device Responsive  */
 
 @media(min-width: 481px) and (max-width: 768px){
-    #navbarNav{
+    /* #navbarNav{
         text-align: right;
     }
     .fuel-nav .navbar-nav .nav-item .nav-link:hover{
@@ -791,7 +647,7 @@ ul li a{
     }
     .registration{
         margin-top: 20px;
-    }
+    } */
 	.hero-content{
         padding-top: 30px;
     }
@@ -843,11 +699,11 @@ ul li a{
         padding-top: 70px;
         padding-bottom: 50px;
     }
-    .footer-menu-link{
+    /* .footer-menu-link{
         margin-top: 10px;
         padding-bottom: 10px;
         padding-left:8px;
-    }
+    } */
     .fuel-contact{
         padding-top: 20px;
     }
@@ -883,7 +739,7 @@ ul li a{
 /* Tablet  Device Responsive  */
 
 @media(min-width: 768px) and (max-width: 993px){
-    h1{
+    /* h1{
         font-size: 40px;
     }
     #navbarNav{
@@ -894,7 +750,7 @@ ul li a{
     }
     .fuel-nav .navbar-nav .nav-item .active{
         border-bottom: 0px;
-    }
+    } */
     .hero-content{
         padding-top: 30px;
     }
@@ -926,11 +782,11 @@ ul li a{
     .faq-section h1{
         font-size: 40px;
     }
-    .footer-menu-link{
+    /* .footer-menu-link{
         margin-top: 10px;
         padding-bottom: 10px;
         padding-left:8px;
-    }
+    } */
     .fuel-contact{
         padding-top: 20px;
     }

@@ -1,0 +1,107 @@
+/* 
+==========================
+    Footer  Section   Style
+========================== 
+*/
+Footer{
+    background:#1F1F1F;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+Footer img{
+    width: 200px;
+    padding-bottom: 20px;
+}
+Footer .footer-btn{
+    border: 1px solid gray;
+    background-image: linear-gradient(to right, #f7892b , #f04126);
+    font-size: 18px;
+    font-weight: 600;
+    color:white;
+    padding: 8px 20px 8px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+Footer .footer-btn:hover{
+    background-image: linear-gradient(to right, #b45604 , #d36554);
+    color:lightgray;
+}
+Footer .subscribe-input{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 8px 0px 8px 10px;
+    margin-left: -10px;
+}
+Footer .social-icon{
+    margin-top: 20px;
+}
+.social-icon ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li a{
+    text-decoration: none; 
+}
+.team-card .social-icon {
+    margin-top: -20px;
+}
+
+.footer-menu-link h5{
+    font-weight: 600;
+    padding-top: 10px;
+}
+.footer-menu-link ul li a{
+    color: lightgray;
+    font-size: 16px;
+}
+.footer-menu-link ul li a:hover{
+    color: white;
+}
+.footer-menu-link li{
+    margin-top: 7px;
+}
+
+.footer-copyright{
+    text-align: center;
+    padding-top: 40px;
+    color: lightgray;
+    font-size: 16px;
+}
+
+/* End Footer  Style */
+
+/* Responsive Style */
+@media (max-width: 480px){
+    .footer-menu-link{
+        margin-top: 10px;
+        padding-bottom: 10px;
+        padding-left:8px;
+    }
+}
+@media(min-width: 481px) and (max-width: 768px){
+    .footer-menu-link{
+        margin-top: 10px;
+        padding-bottom: 10px;
+        padding-left:8px;
+    }
+}
+
+
+@media(min-width: 768px) and (max-width: 993px){
+    .footer-menu-link{
+        margin-top: 10px;
+        padding-bottom: 10px;
+        padding-left:8px;
+    }
+}
